@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Encriptador</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="column1">
+      <div class="col col-1">
+        <img src="./assets/img/logoA.png" alt="logo" class="logo">
+      </div>
+      <div class="col col-2">
+        <form action="submit" class="formulario" id="formulario">
+          <textarea type="text" class="inputEncriptar" form="formulario" id="input" placeholder="Ingrese el texto aquí"></textarea>
+          <p class="alert"><i class="material-symbols-outlined" style="font-size:1.5em">error</i>Solo letras minúsculas y sin acentos</p>
+          <div class="btn" id="buttons">
+            <button type="submit" class="btn-enc" id="encriptar">Encriptar</button>
+            <button type="submit" class="btn-desenc" id="desencriptar">Desencriptar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="resultado">
+      <div class="column2">
+        <div class="col col-3" >
+          <img src="./assets/img/Muñeco.png" alt="" class="img2">
+          <div class="text">
+            <h3>Ningún mensaje fue encontrado</h3>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="creadora">
+    <h4 class="nombre">CREADO POR YANNY VERA</h4>
+    <p>Santiago, Chile</p>
+  </footer>
+
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>
