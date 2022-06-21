@@ -4,6 +4,7 @@
 }
 .container{
   display: flex;
+  max-width: 1024px;
 }
 .column1{
   width: 67%;
